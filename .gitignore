@@ -7,3 +7,8 @@
 /PK.GRPC.Utilities.Test.Server/obj/Debug
 /PK.GRPC.Utilities.Test.Client/obj/Debug
 /PK.GRPC.Utilities/obj
+/PK.GRPC.Utilities/bin
+/PK.GRPC.Utilities.Test.Client/bin
+/PK.GRPC.Utilities.Test.Client/obj/Release
+/PK.GRPC.Utilities.Test.Server/bin
+/PK.GRPC.Utilities.Test.Server/obj/Release
