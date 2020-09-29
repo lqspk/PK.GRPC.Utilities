@@ -1,0 +1,26 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "PK.GRPC.Utilities";
+
+package Protos;
+
+//定义协议服务
+service GrpcService {
+	//简单模式
+	rpc SendString (StringData) returns (StringData);
+
+	//双向数据流模式
+	rpc MultiStream (stream RequestStreamData) returns (stream ResponseStreamData);
+}
+
+message StringData {
+	string Data = 1;	//数据
+}
+
+message RequestStreamData {
+	bytes Data = 1;	//数据
+}
+
+message ResponseStreamData {
+	bytes Data = 1;	//数据
+}

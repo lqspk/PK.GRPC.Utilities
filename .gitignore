@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/packages
+/PK.GRPC.Utilities.Test.Server/obj/Debug
+/PK.GRPC.Utilities.Test.Client/obj/Debug
+/PK.GRPC.Utilities/obj
