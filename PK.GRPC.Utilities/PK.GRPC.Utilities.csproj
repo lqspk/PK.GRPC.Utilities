@@ -2,10 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Description>简单封装的Grpc通用操作类库，为了更方便的使用它。</Description>
+    <Copyright>PK</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/lqspk/PK.GRPC.Utilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lqspk/PK.GRPC.Utilities</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Protos\GrpcService.proto" />
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
